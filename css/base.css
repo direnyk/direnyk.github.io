@@ -32,7 +32,7 @@ header {background-color: #000000;
 header h1 { 
         float: left;
         font-size: 40px;
-        font-family: Noteworthy, sans-serif;
+        font-family: 'Shadows Into Light Two', cursive;
         color: #000000;
         font-weight: 500;
         padding: 10px;
@@ -79,19 +79,20 @@ article h2 {
 }
 
 h1 {
-    font-family: skia, sans-serif;
+    font-family: 'Merienda', cursive;
     color: #000000;
+    font-size: 100px
 }
 
 h2 {
-    font-family: Herculanum, sans-serif;
+    font-family: 'Merienda', cursive;
     font-size: 30px;
     color: teal;
 }
 
 p {
-    font-family: arial narrow,optima, sans-serif;
-    font-size: 18px;
+    font-family: 'Amatic SC',Arial Narrow, sans-serif;
+    font-size: 28px;
     line-height: 26px;
 }
 images {
@@ -100,12 +101,13 @@ images {
 }
 
 footer {
-    font-family: cursive;
+    font-family: Herculanum, cursive;
     font-size: 12px;
     padding: 0 10px 0 10px;
 }
 
-footer {background-color: #026D93;
+footer {
+        background-color: #026D93;
         color: #ffffff;
         height: 30px;
         width:100%;
