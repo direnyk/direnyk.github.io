@@ -19,9 +19,6 @@ body {  background-color:#6E6E6E;
 }
             
 
-p { margin-bottom: 16px;
-
-}
 
 header {background-color: #026D93;
         color: #000000;
@@ -89,41 +86,43 @@ aside {
 
 
 h1 {
-    font-family: 'Merienda', cursive;
+    font-family: Arial Narrow, sans-serif;
     color: #000000;
     font-size: 100px
 }
 
 h2 {
-    font-family: 'Merienda', cursive;
-    font-size: 100px;
+    margin: 15px 0 15px 0;
+    font-family:  Arial Narrow,sans-serif;
     color: #000000;
 }
 
+h3 { margin: 15px 0 15px 0;
+    font-family: Arial narrow, sans-serif;
+    color: #000000
+}
+    
+
 p {
     font-family: 'Amatic SC',Arial Narrow, sans-serif;
-    font-size: 28px;
+    font-size: 26px;
     line-height: 26px;
     color: #ffffff;
+    margin-bottom: 16px;
 }
-images {
-    border: 5px solid #cccccc;
-    width: 100%;
-}
+
+
 
 footer {
     clear: both;
     font-family: Herculanum, cursive;
     font-size: 12px;
     padding: 0 10px 0 10px;
-}
-
-footer {
-        background-color: #026D93;
-        color: #ffffff;
-        height: 30px;
-        width:100%;
-        position: absolute;
-        bottom:0;
+    background-color: #026D93;
+    color: #ffffff;
+    height: 30px;
+    width:100%;
+    position: absolute;
+    bottom:0;
         
 }
