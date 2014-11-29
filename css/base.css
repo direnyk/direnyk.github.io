@@ -5,7 +5,7 @@
 }
 
 
-body {  background-color:#6E6E6E; 
+body {  background-color:#b8b8b8; 
         font-size: 16px;
         line-height: 24px;
         margin: 0;
@@ -14,11 +14,12 @@ body {  background-color:#6E6E6E;
 }
 
 
-#wrapper { min-height: 100%;
-            position: relative;
+#wrapper { 
+        min-height: 100%;
+        position: relative;
+            
 }
             
-
 
 header {background-color: #026D93;
         color: #000000;
@@ -37,7 +38,7 @@ header h1 {
 
 header nav { 
         float: left;
-        margin-top: 18px;
+        margin: 18px 0 0 10px ;
         font-family: Herculanum, sans-serif;
 }
     
@@ -95,32 +96,79 @@ h2 {
     margin: 15px 0 15px 0;
     font-family: 'Shadows Into Light Two',eurostile,sans-serif;
     color: #000000;
+    text-align: center
 }
 
-h3 { margin: 15px 0 15px 0;
-    font-family: , sans-serif;
-    color: #000000
+h3 { margin: 15px 0 0 0;
+    font-family:'Shadows Into Light Two',Arial Narrow, sans-serif;
+    color: #000000;
+    text-align: left;
 }
-    
+
+h4 { 
+    font-family: 'Shadows Into Light Two';
+    text-align: left;
+}
+
+h5{ 
+    font-family: 'Shadows Into Light Two';
+    text-align: center;
+    font-size: 16px;
+}
+
+
 
 p {
-    font-family: 'Amatic SC',Arial Narrow, sans-serif;
-    font-size: 26px;
-    line-height: 26px;
-    color: #ffffff;
-    margin-bottom: 16px;
-}
-
-images {
-    width: 100%;
-    margin: 10px 10px 20px 10px
+    font-family:'Amatic SC' ,Arial Narrow, sans-serif;
+    font-size: 24px;
+    line-height: 20px;
+    color: #0000000;
     
 }
+
+.resume { 
+    clear: both;
+    font-size: 16px;
+    font-family: cambria;
+    width: 100%;
+    line-height: 12px;
+    margin: 0 0 0 0;
+    padding: 0;
+    
+    
+}
+
+img {
+    margin: 10px 0 20px 0
+    
+}
+
+.half { 
+        width: 30%;
+        float: left;
+        margin: 0 0 0 40px;
+        border: solid #000000 5px;
+        text-align: center;
+        background-color: #ffffff;
+        
+}
+
+.first{ 
+    width: 40%;
+    margin: 5px 0 5px 0;
+    
+}
+ 
+
+
+.full { align-content: center
+ }
+
 
 
 footer {
     clear: both;
-    font-family: Herculanum, cursive;
+    font-family: Herculanum, sans-serif;
     font-size: 12px;
     padding: 0 10px 0 10px;
     background-color: #026D93;
@@ -130,4 +178,13 @@ footer {
     position: absolute;
     bottom:0;
         
+}
+
+@media screen and (max-width:600px) {
+  
+    .first, .half{ 
+        width: 50%;
+        
+    
+    }
 }
