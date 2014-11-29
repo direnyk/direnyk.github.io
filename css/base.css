@@ -146,7 +146,7 @@ img {
 .half { 
         width: 30%;
         float: left;
-        margin: 0 0 0 40px;
+        margin: 0 0 10px 40px;
         border: solid #000000 5px;
         text-align: center;
         background-color: #ffffff;
@@ -159,7 +159,9 @@ img {
     
 }
  
-
+.banner { max-width: 960px
+       
+}
 
 .full { align-content: center
  }
