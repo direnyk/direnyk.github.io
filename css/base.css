@@ -175,9 +175,9 @@ img {width: 90%;
     margin:  10px 0 10px 0;
 }
  
-.full { max-width: 1060px;
-        margin-left: 11%;
+.full { max-width: 260px;
         max-height: 50%;
+    margin: 0 auto;
        
 }
 
@@ -215,7 +215,9 @@ footer p, #resume footer p {
 
 .about p {
         text-align: left;
-        float: right;
+        margin: 5px 65px 5px 0px;
+   
+    
 }
 
 .home p {
