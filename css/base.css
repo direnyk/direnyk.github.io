@@ -23,13 +23,13 @@ body {  background-color:#b8b8b8;
 
 header {background-color: #026D93;
         color: #000000;
-        height: 65px;
+        height: 95px;
         padding: 10px;
 }
 
 header h1 { 
-        float: left;
-        font-size: 40px;
+        font-size: 70px;
+        text-align: center;
         font-family: 'Shadows Into Light Two', cursive;
         color: #000000;
         font-weight: 500;
@@ -37,8 +37,9 @@ header h1 {
 }
 
 header nav { 
-        float: left;
         margin: 18px 0 0 10px ;
+    background-color: #026D93;
+        text-align: center;
         font-family: Herculanum, sans-serif;
 }
     
@@ -155,12 +156,23 @@ img {width: 100%;
 }
 
 .first{ 
-    width: 35%;
+    width: 40%;
     max-height: 50%;
     margin: 0 5% 5% 5%;
     max-height: 50%;
     border: solid #000000 5px;
     background-color: #ffffff;
+    
+}
+
+
+.second { 
+    width: 30%;
+    max-height: 50%;
+    margin:  0 5% 5% 5%;
+    border:  solid #000000 5px;
+    background-color: #ffffff;
+        
     
 }
  
