@@ -181,6 +181,13 @@ img {width: 90%;
        
 }
 
+.fourth {
+        max-width: 1060px;
+        margin-left: 11%;
+        max-height: 50%;
+    
+}
+
 
 footer {
     clear: both;
