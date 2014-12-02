@@ -121,7 +121,7 @@ h5{
 p {
     font-family:'Amatic SC' ,Arial Narrow, sans-serif;
     font-size: 24px;
-    line-height: 20px;
+    line-height: 24px;
     color: #0000000;
     
 }
@@ -138,14 +138,15 @@ p {
     
 }
 
-img {
-    margin: 10px 0 20px 0
+img {width: 100%;
+    margin: 10px 0 20px 0;
     
 }
 
 .half { 
-        width: 30%;
-        float: left;
+        width: 20%;
+        max-height: 50%;
+        float: right;
         margin: 0 0 10px 40px;
         border: solid #000000 5px;
         text-align: center;
@@ -155,17 +156,17 @@ img {
 
 .first{ 
     width: 40%;
-    margin: 5px 0 5px 0;
+    max-height: 50%;
+    margin: 0 5% 5% 5%;
+    max-height: 50%;
     
 }
  
-.banner { max-width: 960px
+.full { max-width: 960px;
+        margin: 0 6% 0 6%;
+        max-height: 50%;
        
 }
-
-.full { align-content: center
- }
-
 
 
 footer {
