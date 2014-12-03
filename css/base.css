@@ -5,7 +5,7 @@
 }
 
 
-body {  background-color:#b8b8b8; 
+body {  background-color:#000000; 
         font-size: 16px;
         line-height: 24px;
         margin: 0;
@@ -76,31 +76,23 @@ article h2 {
 }
 
 
-aside {
-    background-color: ;
-    float:right;
-    width: 45%;
-    margin: 0 0 10px 2%;
-    
-}
-
 
 h1 {
     font-family: Arial Narrow, sans-serif;
     color: #000000;
-    font-size: 100px
+    font-size: 100px;
 }
 
 h2 {
     margin: 15px 0 15px 0;
     font-family: 'Shadows Into Light Two',eurostile,sans-serif;
-    color: #000000;
-    text-align: center
+    color: #ffffff;
+    text-align: center;
 }
 
 h3 { margin: 15px 0 0 0;
     font-family:'Shadows Into Light Two',Arial Narrow, sans-serif;
-    color: #000000;
+    color: #ffffff;
     text-align: left;
     line-height: 40px;
 }
@@ -109,6 +101,7 @@ h4 {
     font-family: 'Shadows Into Light Two';
     text-align: left;
     line-height: 30px;
+    color: #ffffff;
 }
 
 h5{ 
@@ -120,10 +113,10 @@ h5{
 
 
 p {
-    font-family:'Amatic SC' ,Arial Narrow, sans-serif;
+    font-family:'Bad Script' ,Arial Narrow, sans-serif;
     font-size: 24px;
     line-height: 24px;
-    color: #000000;
+    color: #ffffff;
     margin-bottom: 10px;
     
 }
@@ -152,9 +145,8 @@ img {width: 90%;
         width: 9%;
         float: left;
         margin: 10px 0 10px 90px;
-        border: solid #000000 5px;
+        border: solid #1CA5B2 5px;
         text-align: center;
-        background-color: #ffffff;
         
 }
 
@@ -177,7 +169,7 @@ img {width: 90%;
  
 .full { max-width: 260px;
         max-height: 50%;
-    margin: 0 auto;
+    margin: 20px auto;
        
 }
 
@@ -185,9 +177,7 @@ img {width: 90%;
         max-width: 1060px;
         margin-left: 11%;
         max-height: 50%;
-    
 }
-
 
 footer {
     clear: both;
@@ -203,7 +193,7 @@ footer {
 
 footer p, #resume footer p { 
     color: #ffffff;
-    font-family: 'Amatic SC';
+    font-family: 'Shadows Into Light Two';
             
 }
 
@@ -211,20 +201,39 @@ footer p, #resume footer p {
     line-height: 28px;
     font-size: 18px;
     font-family:eurostile, sans-serif;
+    color: #ffffff;
 }
 
 .about p {
         text-align: left;
-        margin: 5px 65px 5px 0px;
+        line-height: 30px;
+        font-family: Avenir, Arial Narrow, sans-serif;
+        margin: 25px 65px 5px 0px;
+        font-size: 20px;
+        color: #ffffff;
    
     
 }
 
 .home p {
     text-align: center;
-    
-    
+    line-height: 35px
 }
+
+h4 a {
+     color: #ffffff;
+}
+
+
+h4 a:hover {
+        color: #2CFAE2;
+}
+
+h4 a:visited {
+        text-decoration:none;
+ }
+
+
 
 @media screen and (max-width:600px) {
   
