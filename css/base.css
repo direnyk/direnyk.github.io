@@ -28,7 +28,7 @@ header {background-color: #1CA5B2;
 header h1 { 
         font-size: 70px;
         text-align: center;
-        font-family: 'Shadows Into Light Two', cursive;
+        font-family: 'Shadows Into Light Two', Avenir cursive;
         color: #000000;
         font-weight: 500;
         padding: 10px;
@@ -38,7 +38,7 @@ header nav {
         margin: 18px 0 0 10px ;
     background-color: #1CA5B2;
         text-align: center;
-        font-family: Herculanum, sans-serif;
+        font-family: Herculanum, Avenir, sans-serif;
 }
     
 header a {
@@ -78,14 +78,14 @@ article h2 {
 
 
 h1 {
-    font-family: Arial Narrow, sans-serif;
+    font-family: ,Arial Narrow, sans-serif;
     color: #000000;
     font-size: 100px;
 }
 
 h2 {
     margin: 15px 0 15px 0;
-    font-family: 'Shadows Into Light Two',eurostile,sans-serif;
+    font-family: 'Shadows Into Light Two',Arial Narrow,sans-serif;
     color: #ffffff;
     text-align: center;
 }
@@ -113,7 +113,7 @@ h5{
 
 
 p {
-    font-family:'Bad Script' ,Arial Narrow, sans-serif;
+    font-family:'Shadows Into Light Two',Arial Narrow, sans-serif;
     font-size: 24px;
     line-height: 24px;
     color: #ffffff;
@@ -124,7 +124,6 @@ p {
 .resume { 
     clear: both;
     font-size: 16px;
-    font-family: cambria;
     width: 100%;
     line-height: 12px;
     margin: 0 0 0 0;
@@ -181,7 +180,6 @@ img {width: 90%;
 
 footer {
     clear: both;
-    font-family: Herculanum, sans-serif;
     font-size: 12px;
     padding: 0px 10px 0px 10px;
     background-color: #1CA5B2;
@@ -193,14 +191,14 @@ footer {
 
 footer p, #resume footer p { 
     color: #ffffff;
-    font-family: 'Shadows Into Light Two';
+    font-family: 'Shadows Into Light Two', Avenir, sans-serif;
             
 }
 
 #resume li, ul {
     line-height: 28px;
     font-size: 18px;
-    font-family:eurostile, sans-serif;
+    font-family:Avenir, sans-serif;
     color: #ffffff;
 }
 
